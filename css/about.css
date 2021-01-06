@@ -1,0 +1,111 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-image: url('../img/emilia-about.jpg');
+    background-size:1000px,900px;
+    background-repeat:no-repeat;
+    background-position: right top;
+    font-family: Open Sans;
+ }
+
+ a{
+    text-decoration: none;
+    color:black;
+     
+ }
+ header{
+    margin-right: 5px;
+ }
+
+
+ header ul.menu{
+    margin-top:27px;
+    margin-right: 10px;
+    text-align:right;
+    font-weight:bold;
+    font-size:10px;
+    line-height: 30px;
+    background-color:rgba(250, 250, 250, 0.5);
+    padding:10px 7px ;
+}
+
+header ul.menu a{
+    color:rgb(71,71,71);
+    line-height: 32px
+ }
+
+header ul li{
+    list-style:none;
+ }
+
+header ul.menu li{
+    display:inline;
+    border-left:0.5px solid black;
+    font-size:15px;
+    padding:0 10px;
+ }
+header ul.menu li :hover{
+   color:rgb(111, 177, 111);
+ }
+header ul.menu li:last-child{
+    border-right: 0.5px solid black;
+ }
+
+ header ul.redes{
+    text-align:right;
+    margin-right: 10px;
+ }
+
+ h1{
+    font-family:Raleway;
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    margin-left: 5px;
+    letter-spacing: 2px;
+ }
+
+ h2{
+    font-family:Raleway;
+    font-weight: normal;
+    font-size:25px;
+    margin-left:34px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    color:rgb(33,156,150);
+ }
+
+ h2#abajo{
+    margin-top:55px;
+    margin-bottom: 20px;
+ }
+
+ small{
+    font-family:Raleway;
+    font-weight: normal;
+    margin-left: 40px;
+    margin-top: 35px;
+    color: rgb(33,165,150);
+ }
+
+ .fa-twitter:hover{
+    color:lightskyblue;
+ }
+ .fa-facebook:hover{
+    color:blue;
+ }
+ .fa-spotify:hover{
+    color:lightgreen;
+ }
+ .fa-apple:hover{
+    color:grey;
+ }
+ .fa-amazon:hover{
+    color:orange;
+ }
+ .fa-instagram:hover{
+    color:rgb(247, 18, 228)
+ }
